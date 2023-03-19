@@ -8,16 +8,27 @@ import os
 from tqdm import tqdm
 import pickle
 
-model = ResNet50(weights='imagenet',include_top=False,input_shape=(224,224,3))
+
+#calling ResNet class and pass parameters 
+model = ResNet50(weights='imagenet',include_top=False,input_shape=(224,224,3)) 
+#not training the model as we're using ResNet
 model.trainable = False
 
+
+#we're not training our model. by using imagenet we're predicting. 
+#that prediction is also not end to end cuz we're removing top layer and including our own top layer
+#sending model in sequential. new top layer globalmaxpooling2d
+# we used ResNet module till "model,"
 model = tensorflow.keras.Sequential([
     model,
     GlobalMaxPooling2D()
 ])
 
+#for debugging
 #print(model.summary())
 
+
+#
 def extract_features(img_path,model):
     img = image.load_img(img_path,target_size=(224,224))
     img_array = image.img_to_array(img)
