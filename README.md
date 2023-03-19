@@ -1,12 +1,12 @@
 # ML-powered-Personalized-Clothing-Recommendation-System
 
-A Deep Learning based Fashion Recommender System using the **ResNET50**
+##A Deep Learning based Fashion Recommender System using the **ResNET50**
 
 A personalized clothing recommendation system is a type of recommendation system that provides users with personalized recommendations about clothing in which they may be interested.
 
 
 
-* Built With 
+### Built With 
 + OpenCV - Open Source Computer Vision and Machine Learning software library
 + Tensorflow - TensorFlow is an end-to-end open source platform for machine learning.
 + Tqdm - tqdm is a Python library that allows you to output a smart progress bar by wrapping around any iterable.
