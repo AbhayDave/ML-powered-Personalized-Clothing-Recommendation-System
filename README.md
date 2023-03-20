@@ -15,3 +15,4 @@ A personalized clothing recommendation system is a type of recommendation system
 + Pillow - PIL is the Python Imaging Library by Fredrik Lundh and Contributors.
 + scikit-learn - Scikit-learn is a free software machine learning library for the Python programming language.
 + opencv-python - OpenCV is a huge open-source library for computer vision, machine learning, and image processing.
+
