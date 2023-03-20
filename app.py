@@ -25,7 +25,6 @@ import pickle
 #calling ResNet class and pass parameters 
 #224,224,3 is standard res for an image in model
 model = ResNet50(weights='imagenet',include_top=False,input_shape=(224,224,3)) 
-#not training the model as we're using ResNet
 model.trainable = False
 
 
