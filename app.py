@@ -3,6 +3,8 @@
 #embedding= 2048 set of numbers which will represent our images
 #we'll use ResNet model by using this model we'll generate embedding
 
+
+
 import tensorflow
 
 #impoting image for methods to load, prepare and process images. 
