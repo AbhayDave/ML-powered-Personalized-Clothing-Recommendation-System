@@ -34,6 +34,7 @@ normalized_result = result / norm(result)
 # to calculate distance between featurelist and normalized result 
 # we'll use nearest neighbors algorithm
 
+
 #will find 6 recommandation
 #brute as not that much data involved
 #we tried euclidean here you guys can also try cosine
