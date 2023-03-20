@@ -9,7 +9,6 @@ from sklearn.neighbors import NearestNeighbors
 import cv2
 
 
-
 #(total images,2048)
 feature_list = np.array(pickle.load(open('embeddings.pkl','rb')))
 filenames = pickle.load(open('filenames.pkl','rb'))
