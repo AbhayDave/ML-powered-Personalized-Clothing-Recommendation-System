@@ -4,7 +4,6 @@
 #we'll use ResNet model by using this model we'll generate embedding
 
 
-
 import tensorflow
 
 #impoting image for methods to load, prepare and process images. 
