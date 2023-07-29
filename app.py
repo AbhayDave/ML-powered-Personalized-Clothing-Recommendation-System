@@ -6,7 +6,7 @@
 
 import tensorflow
 
-#impoting image for methods to load, prepare and process images. 
+#importing image for methods to load, prepare and process images. 
 from tensorflow.keras.preprocessing import image
 
 from tensorflow.keras.layers import GlobalMaxPooling2D
